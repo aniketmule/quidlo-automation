@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false" configfailurepolicy="continue">
+  <test name="HomepageTest">
+    <classes>
+      <class name="pages.HomePage"/>
+    </classes>
+    </test>
+  <test name="SignupTest">
+    <classes>
+      <class name="pages.SignupPage"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="SigninTest">
+    <classes>
+      <class name="pages.SigninPage"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

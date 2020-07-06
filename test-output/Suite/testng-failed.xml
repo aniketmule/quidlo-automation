@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SigninTest(failed)">
+    <classes>
+      <class name="pages.SigninPage">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="configDriver"/>
+          <include name="signinWithInvalidEmail"/>
+        </methods>
+      </class> <!-- pages.SigninPage -->
+    </classes>
+  </test> <!-- SigninTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
