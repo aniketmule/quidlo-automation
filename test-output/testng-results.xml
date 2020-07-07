@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26956" started-at="2020-07-06T18:18:48 IST" finished-at="2020-07-06T18:19:15 IST">
+  <suite name="Default suite" duration-ms="25412" started-at="2020-07-07T14:22:48 IST" finished-at="2020-07-07T14:23:13 IST">
     <groups>
     </groups>
-    <test name="HomepageTest" duration-ms="155" started-at="2020-07-06T18:18:48 IST" finished-at="2020-07-06T18:18:49 IST">
-      <class name="pages.HomePage">
-        <test-method status="PASS" signature="assertHomepage()[pri:1, instance:pages.HomePage@3d99d22e]" name="assertHomepage" duration-ms="40" started-at="2020-07-06T18:18:49 IST" description="Homepage Test" finished-at="2020-07-06T18:18:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertHomepage -->
-      </class> <!-- pages.HomePage -->
-    </test> <!-- HomepageTest -->
-    <test name="SignupTest" duration-ms="18842" started-at="2020-07-06T18:18:49 IST" finished-at="2020-07-06T18:19:08 IST">
+    <test name="Default test" duration-ms="25412" started-at="2020-07-07T14:22:48 IST" finished-at="2020-07-07T14:23:13 IST">
       <class name="pages.SignupPage">
-        <test-method status="PASS" signature="testSignupPage()[pri:2, instance:pages.SignupPage@184f6be2]" name="testSignupPage" duration-ms="12680" started-at="2020-07-06T18:18:49 IST" description="Checking sign-up page" finished-at="2020-07-06T18:19:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSignupPage -->
-        <test-method status="PASS" signature="activationEmailChecker()[pri:3, instance:pages.SignupPage@184f6be2]" name="activationEmailChecker" duration-ms="6154" started-at="2020-07-06T18:19:01 IST" description="Testing Activation Email" finished-at="2020-07-06T18:19:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- activationEmailChecker -->
-      </class> <!-- pages.SignupPage -->
-    </test> <!-- SignupTest -->
-    <test name="SigninTest" duration-ms="7913" started-at="2020-07-06T18:19:08 IST" finished-at="2020-07-06T18:19:15 IST">
-      <class name="pages.SigninPage">
-        <test-method status="PASS" signature="configDriver()[pri:0, instance:pages.SigninPage@5f282abb]" name="configDriver" is-config="true" duration-ms="12402" started-at="2020-07-06T18:18:36 IST" finished-at="2020-07-06T18:18:48 IST">
+        <test-method status="PASS" signature="configDriver()[pri:0, instance:pages.SignupPage@3d99d22e]" name="configDriver" is-config="true" duration-ms="15675" started-at="2020-07-07T14:22:32 IST" finished-at="2020-07-07T14:22:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configDriver -->
-        <test-method status="PASS" signature="signinWithInvalidEmail()[pri:4, instance:pages.SigninPage@5f282abb]" name="signinWithInvalidEmail" duration-ms="4062" started-at="2020-07-06T18:19:08 IST" description="Sign in with Valid email ID" finished-at="2020-07-06T18:19:12 IST">
+        <test-method status="PASS" signature="testSignupPage()[pri:2, instance:pages.SignupPage@3d99d22e]" name="testSignupPage" duration-ms="16776" started-at="2020-07-07T14:22:48 IST" description="Checking sign-up page" finished-at="2020-07-07T14:23:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signinWithInvalidEmail -->
-        <test-method status="PASS" signature="signinWithValidEmail()[pri:5, instance:pages.SigninPage@5f282abb]" name="signinWithValidEmail" duration-ms="3845" started-at="2020-07-06T18:19:12 IST" description="Sign in with Valid email ID" finished-at="2020-07-06T18:19:15 IST">
+        </test-method> <!-- testSignupPage -->
+        <test-method status="PASS" signature="activationEmailChecker()[pri:3, instance:pages.SignupPage@3d99d22e]" name="activationEmailChecker" duration-ms="8521" started-at="2020-07-07T14:23:05 IST" description="Testing Activation Email" finished-at="2020-07-07T14:23:13 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signinWithValidEmail -->
-        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:pages.SigninPage@5f282abb]" name="tearDownDriver" is-config="true" duration-ms="883" started-at="2020-07-06T18:19:15 IST" finished-at="2020-07-06T18:19:16 IST">
+        </test-method> <!-- activationEmailChecker -->
+        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:pages.SignupPage@3d99d22e]" name="tearDownDriver" is-config="true" duration-ms="1171" started-at="2020-07-07T14:23:13 IST" finished-at="2020-07-07T14:23:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- pages.SigninPage -->
-    </test> <!-- SigninTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- pages.SignupPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

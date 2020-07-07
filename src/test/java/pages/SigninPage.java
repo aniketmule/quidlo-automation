@@ -33,7 +33,7 @@ public class SigninPage extends BaseClass{
 		Assert.assertNotNull(avatarText);
 		
 	}
-	@Test(priority = 4, description = "Sign in with Valid email ID")
+	@Test(priority = 4, description = "Sign in with Invalid email ID")
 	public void signinWithInvalidEmail() {
 		driver.get("https://auth.quidlo.com/signin");
 		WebElement emailTextBox = driver.findElements(By.name("input")).get(0);
