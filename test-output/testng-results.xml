@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25412" started-at="2020-07-07T14:22:48 IST" finished-at="2020-07-07T14:23:13 IST">
+  <suite name="Default suite" duration-ms="133" started-at="2020-07-09T00:57:50 IST" finished-at="2020-07-09T00:57:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25412" started-at="2020-07-07T14:22:48 IST" finished-at="2020-07-07T14:23:13 IST">
-      <class name="pages.SignupPage">
-        <test-method status="PASS" signature="configDriver()[pri:0, instance:pages.SignupPage@3d99d22e]" name="configDriver" is-config="true" duration-ms="15675" started-at="2020-07-07T14:22:32 IST" finished-at="2020-07-07T14:22:48 IST">
+    <test name="Default test" duration-ms="133" started-at="2020-07-09T00:57:50 IST" finished-at="2020-07-09T00:57:50 IST">
+      <class name="pages.HomePage">
+        <test-method status="PASS" signature="configDriver()[pri:0, instance:pages.HomePage@3d99d22e]" name="configDriver" is-config="true" duration-ms="9438" started-at="2020-07-09T00:57:40 IST" finished-at="2020-07-09T00:57:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configDriver -->
-        <test-method status="PASS" signature="testSignupPage()[pri:2, instance:pages.SignupPage@3d99d22e]" name="testSignupPage" duration-ms="16776" started-at="2020-07-07T14:22:48 IST" description="Checking sign-up page" finished-at="2020-07-07T14:23:05 IST">
+        <test-method status="PASS" signature="assertHomepage()[pri:1, instance:pages.HomePage@3d99d22e]" name="assertHomepage" duration-ms="23" started-at="2020-07-09T00:57:50 IST" description="Homepage Test" finished-at="2020-07-09T00:57:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSignupPage -->
-        <test-method status="PASS" signature="activationEmailChecker()[pri:3, instance:pages.SignupPage@3d99d22e]" name="activationEmailChecker" duration-ms="8521" started-at="2020-07-07T14:23:05 IST" description="Testing Activation Email" finished-at="2020-07-07T14:23:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- activationEmailChecker -->
-        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:pages.SignupPage@3d99d22e]" name="tearDownDriver" is-config="true" duration-ms="1171" started-at="2020-07-07T14:23:13 IST" finished-at="2020-07-07T14:23:15 IST">
+        </test-method> <!-- assertHomepage -->
+        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:pages.HomePage@3d99d22e]" name="tearDownDriver" is-config="true" duration-ms="1160" started-at="2020-07-09T00:57:50 IST" finished-at="2020-07-09T00:57:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- pages.SignupPage -->
+      </class> <!-- pages.HomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

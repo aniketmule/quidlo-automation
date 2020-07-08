@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Program Files\KMSpico\temp\testng-eclipse-704629024\testng-customsuite.xml</span>
+                    <span>C:\Program Files\KMSpico\temp\testng-eclipse--422911066\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pages.SignupPage" hash-for-method="activationEmailChecker">activationEmailChecker</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pages.SignupPage" hash-for-method="testSignupPage">testSignupPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pages.HomePage" hash-for-method="assertHomepage">assertHomepage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,25 +122,16 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">pages.SignupPage</span>
+              <span class="class-name">pages.HomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="activationEmailChecker">
-                  </a> <!-- activationEmailChecker -->
-                  <span class="method-name">activationEmailChecker</span>
+                  <a name="assertHomepage">
+                  </a> <!-- assertHomepage -->
+                  <span class="method-name">assertHomepage</span>
                   <em>
-(Testing Activation Email)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSignupPage">
-                  </a> <!-- testSignupPage -->
-                  <span class="method-name">testSignupPage</span>
-                  <em>
-(Checking sign-up page)                  </em>
+(Homepage Test)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -153,7 +139,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Program Files\KMSpico\temp\testng-eclipse-704629024\testng-customsuite.xml</span>
+            <span class="header-content">C:\Program Files\KMSpico\temp\testng-eclipse--422911066\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -162,7 +148,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;pages.SignupPage&quot;/&gt;
+      &lt;class name=&quot;pages.HomePage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -202,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSignupPage')
-data.setCell(0, 2, 'pages.SignupPage')
-data.setCell(0, 3, 16776);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'activationEmailChecker')
-data.setCell(1, 2, 'pages.SignupPage')
-data.setCell(1, 3, 8521);
+data.setCell(0, 1, 'assertHomepage')
+data.setCell(0, 2, 'pages.HomePage')
+data.setCell(0, 3, 23);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 23 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -241,22 +223,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">pages.SignupPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">pages.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">configDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">testSignupPage</span>
-                <span class="method-start">15774 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">activationEmailChecker</span>
-                <span class="method-start">32565 ms</span>
+                <span class="method-name">assertHomepage</span>
+                <span class="method-start">9536 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDownDriver</span>
-                <span class="method-start">41116 ms</span>
+                <span class="method-start">9604 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

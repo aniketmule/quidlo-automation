@@ -5,6 +5,7 @@
     <classes>
       <class name="pages.SignupPage">
         <methods>
+          <include name="testSignupPage"/>
           <include name="tearDownDriver"/>
           <include name="configDriver"/>
           <include name="activationEmailChecker"/>

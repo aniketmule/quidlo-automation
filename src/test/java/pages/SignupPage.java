@@ -40,13 +40,15 @@ public class SignupPage extends BaseClass{
 		}
 		driver.switchTo().window(windowItems.get(1));
 		System.out.println("CurrentUrl: "+driver.getCurrentUrl());
-		String EmailId = "";
+		String EmailIdText = "";
 		try {
-			emailId = driver.findElement(By.id("mail_address"));
-			Thread.sleep(3000);
-			EmailId = emailId.getAttribute("value");
-			System.out.println("Email: "+EmailId);
-			config.setEmail(EmailId);
+			while (EmailIdText.length()<1) {
+				emailId = driver.findElement(By.id("mail_address"));
+				EmailIdText = emailId.getAttribute("value");
+//			Thread.sleep(3000);
+			}
+			System.out.println("Email: "+EmailIdText);
+			config.setEmail(EmailIdText);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -63,7 +65,7 @@ public class SignupPage extends BaseClass{
 		WebElement signUpButton = driver.findElement(By.className("Signup-style__center___3WLhk"));
 		String successXpath = "//div[contains(text(),'Thank you for signing up!')]";
 		
-		emailTextBox.sendKeys(EmailId);
+		emailTextBox.sendKeys(EmailIdText);
 		passwordTextBox.sendKeys("Testing123");
 		termsAndConditionsBox.click();
 		wait.until(ExpectedConditions.elementToBeClickable(signUpButton));
